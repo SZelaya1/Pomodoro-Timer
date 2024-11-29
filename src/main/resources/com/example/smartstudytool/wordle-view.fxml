@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.text.Text?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.smartstudytool.WordleGameController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <GridPane fx:id="wordGrid" hgap="5" vgap="5" alignment="CENTER" />
+    <TextField fx:id="inputField" promptText="Enter your guess" maxWidth="200" />
+    <Button fx:id="submitButton" text="Submit" onAction="#handleSubmit" />
+    <Text fx:id="messageText" text="Start guessing!" />
+</VBox>
