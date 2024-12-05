@@ -12,9 +12,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 import javafx.util.Duration;
-
 import java.io.IOException;
-import java.util.Set;
 
 public class PomodoroController {
     @FXML private Label timerLabel;

@@ -9,15 +9,19 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
-    <Label text="Settings" style="-fx-font-size: 24px;" />
+    <Label text="Settings" style="-fx-font-size: 24px; -fx-text-fill: #FF6F00; -fx-font-weight: bold;" />
     <HBox spacing="10">
-        <Label text="Work Duration (min):" />
-        <TextField fx:id="workDurationField" />
+        <Label text="Work Duration (min):" style="-fx-text-fill: #FF6F00;" />
+        <TextField fx:id="workDurationField" style="-fx-background-color: #FFEB99; -fx-font-size: 14px; -fx-text-fill: #FF4500;" />
     </HBox>
     <HBox spacing="10">
-        <Label text="Break Duration (min):" />
-        <TextField fx:id="breakDurationField" />
+        <Label text="Break Duration (min):" style="-fx-text-fill: #FF6F00;" />
+        <TextField fx:id="breakDurationField" style="-fx-background-color: #FFEB99; -fx-font-size: 14px; -fx-text-fill: #FF4500;" />
     </HBox>
-    <Button fx:id="applyButton" text="Apply" onAction="#saveSettings"/>
-    <Button text="Go Back" onAction="#handleBack"/>
+    <HBox spacing="20.0" alignment="CENTER">
+        <Button text="Apply" onAction="#saveSettings"
+                style="-fx-background-color: #FF6F00; -fx-text-fill: white; -fx-font-size: 14px; -fx-padding: 10px 20px; -fx-font-weight: bold;" />
+        <Button text="Go Back" onAction="#handleBack"
+                style="-fx-background-color: #FF4500; -fx-text-fill: white; -fx-font-size: 14px; -fx-padding: 10px 20px; -fx-font-weight: bold;" />
+    </HBox>
 </VBox>
