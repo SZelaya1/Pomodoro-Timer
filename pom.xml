@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.smartstudytool/com.example.smartstudytool.HelloApplication
+                            <mainClass>com.example.smartstudytool/com.example.smartstudytool.PomodoroApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

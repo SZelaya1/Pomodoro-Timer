@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.smartstudytool.SettingsController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <Label text="Settings" style="-fx-font-size: 24px;" />
+    <HBox spacing="10">
+        <Label text="Work Duration (min):" />
+        <TextField fx:id="workDurationField" />
+    </HBox>
+    <HBox spacing="10">
+        <Label text="Break Duration (min):" />
+        <TextField fx:id="breakDurationField" />
+    </HBox>
+    <Button fx:id="applyButton" text="Apply" onAction="#saveSettings"/>
+    <Button text="Go Back" onAction="#handleBack"/>
+</VBox>
