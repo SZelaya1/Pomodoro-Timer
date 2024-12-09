@@ -61,7 +61,6 @@ public class PomodoroController {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("settings-view.fxml"));
             Parent root = loader.load();
-
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             stage.setScene(new Scene(root));
         } catch (IOException e) {
