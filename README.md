@@ -26,5 +26,5 @@ A simple and effective **Pomodoro Timer** built using JavaFX. This app helps you
 
 ## 🙌 Credits
 
-Developed by Sebastian Zelaya.  
+Developed by Sebastian Zelaya for the Foundations of Progrmaming Techniques Course.  
 Based on the Pomodoro Technique by Francesco Cirillo.
